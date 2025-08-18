@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raju's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <div class="text-center py-12">
+    <h1 class="text-4xl font-bold mb-4">👋 Hi, I’m Raju</h1>
+    <p class="max-w-2xl mx-auto text-lg text-gray-600">
+      Building intuitive web apps, designing sleek, modern interfaces, and diving into innovative tech that sparks creativity and joy—bringing ideas to life with clean code, bold visuals, and seamless experiences.
+    </p>
+  </div>
+
+  <!-- About Me -->
+  <section class="max-w-3xl mx-auto px-6 py-10 bg-white shadow-md rounded-lg mb-10">
+    <h2 class="text-2xl font-semibold mb-6 text-center">🚀 About Me</h2>
+    <ul class="space-y-3 text-lg">
+      <li>👀 <strong>Passionate about</strong>: Creating dynamic web apps.</li>
+      <li>🌱 <strong>Currently learning</strong>: Node.js, Express, Tailwind CSS.</li>
+      <li>💞️ <strong>Open to collaborate on</strong>: Open-source web projects.</li>
+      <li>📫 <strong>Reach me</strong>: <a href="mailto:rajupusti@yahoo.com" class="text-blue-600 hover:underline">rajupusti@yahoo.com</a></li>
+      <li>⚡ <strong>Fun fact</strong>: I once coded a website in a weekend inspired by a yoga session! 🧘‍♂️</li>
+    </ul>
+  </section>
+
+  <!-- Tech Stack -->
+  <section class="max-w-3xl mx-auto px-6 py-10 bg-white shadow-md rounded-lg mb-10">
+    <h2 class="text-2xl font-semibold mb-6 text-center">🛠️ Tech Stack</h2>
+    <div class="flex flex-wrap justify-center gap-3">
+      <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat" alt="JavaScript">
+      <img src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat" alt="Node.js">
+      <img src="https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat" alt="HTML5">
+      <img src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat" alt="CSS3">
+      <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat" alt="Tailwind CSS">
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="max-w-3xl mx-auto px-6 py-10 bg-white shadow-md rounded-lg mb-10">
+    <h2 class="text-2xl font-semibold mb-6 text-center">🌟 Featured Projects</h2>
+    <div class="space-y-4">
+      <div class="p-5 border rounded-lg hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold">🧘 Yoga Samadhan</h3>
+        <p class="text-gray-600 mb-2">Wellness platform for yoga and mindfulness</p>
+        <a href="https://yogasamadhan.com" target="_blank" class="text-blue-600 hover:underline">https://yogasamadhan.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    © <span id="year"></span> Raju Pusti. All rights reserved.
+  </footer>
+
+  <script>
+    // Dynamic year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
